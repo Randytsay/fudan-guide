@@ -53,13 +53,11 @@
         /* 修改 password-container 樣式 */
         .password-container {
             position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
             display: flex;
             justify-content: center;
-            align-items: center; /* 確保垂直居中 */
+            align-items: center;
             background-color: #f8f9fa;
             z-index: 1000;
             transition: opacity 0.5s ease-out;
@@ -68,7 +66,6 @@
             background-position: center top;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            padding-top: 0; /* 移除頂部填充 */
         }
         
         /* 修改 password-form 樣式 */
@@ -81,7 +78,6 @@
             max-width: 350px;
             text-align: center;
             border: 1px solid #e0e0e0;
-            margin-top: 150px; /* 固定距離頂部的距離 */
         }
         
         h2 {
@@ -204,7 +200,7 @@
             <p class="description">美安群組經營 SOP<br>歡迎來到團隊群組經營 SOP 知識庫！這裡包含了經營美安、群組管理的完整流程與指南，幫助您快速掌握團隊運作的核心技能。</p>
             <input type="password" id="password" placeholder="請輸入知識庫密碼" autocomplete="off">
             <button onclick="checkPassword()">進入知識庫</button>
-            <p style="font-size: 12px; color: #888; margin-top: 15px;">請輸入指定密碼</p>
+            <p style="font-size: 12px; color: #888; margin-top: 15px;">新人快速啟動組合多少$？</p>
         </div>
     </div>
     
