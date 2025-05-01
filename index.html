@@ -50,6 +50,7 @@
             background-color: #f8f9fa;
         }
         
+        /* 修改 password-container 樣式 */
         .password-container {
             position: fixed;
             top: 0;
@@ -58,7 +59,7 @@
             height: 100%;
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: center; /* 確保垂直居中 */
             background-color: #f8f9fa;
             z-index: 1000;
             transition: opacity 0.5s ease-out;
@@ -67,9 +68,10 @@
             background-position: center top;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            padding-top: 40vh;
+            padding-top: 0; /* 移除頂部填充 */
         }
         
+        /* 修改 password-form 樣式 */
         .password-form {
             background: white;
             padding: 30px;
@@ -79,7 +81,7 @@
             max-width: 350px;
             text-align: center;
             border: 1px solid #e0e0e0;
-            margin-top: 20vh;
+            margin-top: 150px; /* 固定距離頂部的距離 */
         }
         
         h2 {
